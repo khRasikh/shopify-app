@@ -1,9 +1,9 @@
-import { Page } from "@shopify/polaris";
-import { TitleBar } from "@shopify/app-bridge-react";
-import { QRCodeForm } from "../../components";
+import { Page } from '@shopify/polaris'
+import { TitleBar } from '@shopify/app-bridge-react'
+import { QRCodeForm } from '../../components'
 
 export default function ManageCode() {
-  const breadcrumbs = [{ content: "QR codes", url: "/" }];
+  const breadcrumbs = [{ content: 'QR codes', url: '/' }]
 
   return (
     <Page>
@@ -14,5 +14,5 @@ export default function ManageCode() {
       />
       <QRCodeForm />
     </Page>
-  );
+  )
 }
